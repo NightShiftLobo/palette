@@ -1,0 +1,46 @@
+{
+  "name": "NightShiftLobo",
+  "author": "AJ-Udyanga",
+  "description": "Ultra low eye-strain 26-color palette for NightShiftLobo ecosystem",
+  "colors": {
+    "bg": "#1B1D23",
+    "bg_alt": "#22252C",
+    "surface": "#2A2E37",
+    "surface_alt": "#303540",
+    "surface_high": "#383C47",
+    
+    "fg": "#D7DAE3",
+    "fg_dim": "#BFC3D0",
+    "fg_soft": "#A8ACC0",
+    "fg_accent": "#7C93F2",
+    
+    "primary": "#6C82D9",
+    "secondary": "#7C93F2",
+    "accent": "#6C82D9",
+    
+    "red": "#D67A7A",
+    "orange": "#E0C27A",
+    "yellow": "#CFAE6A",
+    "green": "#6CBF84",
+    "teal": "#5FA8B8",
+    "cyan": "#56B6C2",
+    "blue": "#6C82D9",
+    "magenta": "#C25680",
+    "pink": "#D05A8E",
+    
+    "string": "#81D99A",
+    "constant": "#FFE5B4",
+    "function_name": "#7C93F2",
+    "keyword": "#CFAE6A",
+    "type": "#C25680",
+    "statement": "#6C82D9",
+    
+    "comment": "#5C6370",
+    "hint": "#B2A1FF",
+    
+    "border": "#303540",
+    "outline": "#303540",
+    "selection": "#383C47",
+    "cursor": "#6C82D9"
+  }
+}
