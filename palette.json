@@ -1,46 +1,149 @@
 {
-  "name": "NightShiftLobo",
-  "author": "AJ-Udyanga",
-  "description": "Ultra low eye-strain 26-color palette for NightShiftLobo ecosystem",
-  "colors": {
-    "bg": "#1B1D23",
-    "bg_alt": "#22252C",
-    "surface": "#2A2E37",
-    "surface_alt": "#303540",
-    "surface_high": "#383C47",
-    
-    "fg": "#D7DAE3",
-    "fg_dim": "#BFC3D0",
-    "fg_soft": "#A8ACC0",
-    "fg_accent": "#7C93F2",
-    
-    "primary": "#6C82D9",
-    "secondary": "#7C93F2",
-    "accent": "#6C82D9",
-    
-    "red": "#D67A7A",
-    "orange": "#E0C27A",
-    "yellow": "#CFAE6A",
-    "green": "#6CBF84",
-    "teal": "#5FA8B8",
-    "cyan": "#56B6C2",
-    "blue": "#6C82D9",
-    "magenta": "#C25680",
-    "pink": "#D05A8E",
-    
-    "string": "#81D99A",
-    "constant": "#FFE5B4",
-    "function_name": "#7C93F2",
-    "keyword": "#CFAE6A",
-    "type": "#C25680",
-    "statement": "#6C82D9",
-    
-    "comment": "#5C6370",
-    "hint": "#B2A1FF",
-    
-    "border": "#303540",
-    "outline": "#303540",
-    "selection": "#383C47",
-    "cursor": "#6C82D9"
+  "name": "NightShift Lobo",
+  "tagline": "Precision Dark. Engineered Focus.",
+  "version": "2.0.0",
+  "engine": "Perceptual Luminance Structured System",
+
+  "flavours": {
+
+    "eclipse": {
+      "type": "dark",
+      "colors": {
+        "bg_0": "#0D1016",
+        "bg_1": "#131722",
+        "bg_2": "#1A1F2C",
+        "bg_3": "#222837",
+        "bg_4": "#2A3142",
+        "border": "#2C3344",
+
+        "fg_primary": "#D4D8E4",
+        "fg_secondary": "#9EA6BD",
+        "fg_muted": "#7C859E",
+        "comment": "#626B80",
+
+        "blue": "#6F88E6",
+        "blue_soft": "#5C73C7",
+        "cyan": "#58AFC2",
+        "teal": "#5CA3B2",
+        "green": "#6ABF88",
+        "yellow": "#D2B46F",
+        "orange": "#C98C6A",
+        "red": "#D37D82",
+        "purple": "#A98CE8",
+
+        "selection": "#263045",
+        "cursor": "#7C93F2",
+        "success": "#6ABF88",
+        "warning": "#D2B46F",
+        "error": "#D37D82",
+        "info": "#6F88E6",
+        "diff_add": "#2C4A3C"
+      }
+    },
+
+    "shadow": {
+      "type": "dark",
+      "colors": {
+        "bg_0": "#10131A",
+        "bg_1": "#181C24",
+        "bg_2": "#1E2432",
+        "bg_3": "#242B3A",
+        "bg_4": "#2E3546",
+        "border": "#2E3445",
+
+        "fg_primary": "#D6DBE8",
+        "fg_secondary": "#A4ABC2",
+        "fg_muted": "#858DA6",
+        "comment": "#687188",
+
+        "blue": "#6F88E6",
+        "blue_soft": "#6078D4",
+        "cyan": "#5BB5C8",
+        "teal": "#60A9B8",
+        "green": "#70C693",
+        "yellow": "#D8BB78",
+        "orange": "#CF9272",
+        "red": "#DA848A",
+        "purple": "#AF92EE",
+
+        "selection": "#2A344A",
+        "cursor": "#88A0FF",
+        "success": "#70C693",
+        "warning": "#D8BB78",
+        "error": "#DA848A",
+        "info": "#6F88E6",
+        "diff_add": "#315042"
+      }
+    },
+
+    "obsidian": {
+      "type": "dark",
+      "colors": {
+        "bg_0": "#141821",
+        "bg_1": "#1B202B",
+        "bg_2": "#222838",
+        "bg_3": "#2A3142",
+        "bg_4": "#333A4D",
+        "border": "#353C50",
+
+        "fg_primary": "#D9DEEA",
+        "fg_secondary": "#A8AFC8",
+        "fg_muted": "#8891A8",
+        "comment": "#6C748A",
+
+        "blue": "#748EF2",
+        "blue_soft": "#5F77D1",
+        "cyan": "#5DB8CB",
+        "teal": "#62AEBE",
+        "green": "#74C99B",
+        "yellow": "#DCBE7C",
+        "orange": "#D49776",
+        "red": "#DE8A90",
+        "purple": "#B297F0",
+
+        "selection": "#2F3850",
+        "cursor": "#92A9FF",
+        "success": "#74C99B",
+        "warning": "#DCBE7C",
+        "error": "#DE8A90",
+        "info": "#748EF2",
+        "diff_add": "#355347"
+      }
+    },
+
+    "dawn": {
+      "type": "light",
+      "colors": {
+        "bg_0": "#F4F1E8",
+        "bg_1": "#E9E4D8",
+        "bg_2": "#DED7C8",
+        "bg_3": "#D2CAB9",
+        "bg_4": "#C7BEAB",
+        "border": "#C4BBA8",
+
+        "fg_primary": "#2E3440",
+        "fg_secondary": "#4C5568",
+        "fg_muted": "#6C7385",
+        "comment": "#7A8194",
+
+        "blue": "#4F6EDB",
+        "blue_soft": "#6C83D6",
+        "cyan": "#3F8F95",
+        "teal": "#4F949A",
+        "green": "#4F9C69",
+        "yellow": "#B48C42",
+        "orange": "#B87A52",
+        "red": "#B35D5D",
+        "purple": "#7A63B8",
+
+        "selection": "#D6CEBD",
+        "cursor": "#4F6EDB",
+        "success": "#4F9C69",
+        "warning": "#B48C42",
+        "error": "#B35D5D",
+        "info": "#4F6EDB",
+        "diff_add": "#BFD3C2"
+      }
+    }
   }
 }
