@@ -3,24 +3,100 @@
   "tagline": "Precision Dark. Engineered Focus.",
   "version": "2.0.0",
   "engine": "Perceptual Luminance Structured System",
-
+  "schema": "nightshift-lobo.palette/v2",
+  "generatedFrom": "./palette.source.json",
+  "flavourOrder": [
+    "eclipse",
+    "shadow",
+    "obsidian",
+    "dawn"
+  ],
   "flavours": {
-
     "eclipse": {
+      "name": "Eclipse",
+      "emoji": "🌑",
+      "order": 0,
       "type": "dark",
-      "colors": {
+      "dark": true,
+      "contrast": "low",
+      "description": "Lowest-luminance dark flavour for maximum ambient suppression.",
+      "colorOrder": [
+        "bg_0",
+        "bg_1",
+        "bg_2",
+        "bg_3",
+        "bg_4",
+        "border",
+        "fg_primary",
+        "fg_secondary",
+        "fg_muted",
+        "comment",
+        "blue",
+        "blue_soft",
+        "cyan",
+        "teal",
+        "green",
+        "yellow",
+        "orange",
+        "red",
+        "purple",
+        "selection",
+        "cursor",
+        "success",
+        "warning",
+        "error",
+        "info",
+        "diff_add"
+      ],
+      "groups": {
+        "surfaces": [
+          "bg_0",
+          "bg_1",
+          "bg_2",
+          "bg_3",
+          "bg_4",
+          "border"
+        ],
+        "foregrounds": [
+          "fg_primary",
+          "fg_secondary",
+          "fg_muted",
+          "comment"
+        ],
+        "accents": [
+          "blue",
+          "blue_soft",
+          "cyan",
+          "teal",
+          "green",
+          "yellow",
+          "orange",
+          "red",
+          "purple"
+        ],
+        "utilities": [
+          "selection",
+          "cursor"
+        ],
+        "semantics": [
+          "success",
+          "warning",
+          "error",
+          "info",
+          "diff_add"
+        ]
+      },
+      "rawColors": {
         "bg_0": "#0D1016",
         "bg_1": "#131722",
         "bg_2": "#1A1F2C",
         "bg_3": "#222837",
         "bg_4": "#2A3142",
         "border": "#2C3344",
-
         "fg_primary": "#D4D8E4",
         "fg_secondary": "#9EA6BD",
         "fg_muted": "#7C859E",
         "comment": "#626B80",
-
         "blue": "#6F88E6",
         "blue_soft": "#5C73C7",
         "cyan": "#58AFC2",
@@ -30,7 +106,6 @@
         "orange": "#C98C6A",
         "red": "#D37D82",
         "purple": "#A98CE8",
-
         "selection": "#263045",
         "cursor": "#7C93F2",
         "success": "#6ABF88",
@@ -38,24 +113,816 @@
         "error": "#D37D82",
         "info": "#6F88E6",
         "diff_add": "#2C4A3C"
+      },
+      "colors": {
+        "bg_0": {
+          "name": "Background 0",
+          "order": 0,
+          "hex": "#0D1016",
+          "rgb": {
+            "r": 13,
+            "g": 16,
+            "b": 22
+          },
+          "hsl": {
+            "h": 220,
+            "s": 0.25714285714285723,
+            "l": 0.06862745098039216
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_1": {
+          "name": "Background 1",
+          "order": 1,
+          "hex": "#131722",
+          "rgb": {
+            "r": 19,
+            "g": 23,
+            "b": 34
+          },
+          "hsl": {
+            "h": 224,
+            "s": 0.2830188679245284,
+            "l": 0.10392156862745097
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_2": {
+          "name": "Background 2",
+          "order": 2,
+          "hex": "#1A1F2C",
+          "rgb": {
+            "r": 26,
+            "g": 31,
+            "b": 44
+          },
+          "hsl": {
+            "h": 223.33333333333334,
+            "s": 0.2571428571428571,
+            "l": 0.13725490196078433
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_3": {
+          "name": "Background 3",
+          "order": 3,
+          "hex": "#222837",
+          "rgb": {
+            "r": 34,
+            "g": 40,
+            "b": 55
+          },
+          "hsl": {
+            "h": 222.85714285714286,
+            "s": 0.23595505617977533,
+            "l": 0.17450980392156862
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_4": {
+          "name": "Background 4",
+          "order": 4,
+          "hex": "#2A3142",
+          "rgb": {
+            "r": 42,
+            "g": 49,
+            "b": 66
+          },
+          "hsl": {
+            "h": 222.49999999999997,
+            "s": 0.22222222222222227,
+            "l": 0.21176470588235297
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "border": {
+          "name": "Border",
+          "order": 5,
+          "hex": "#2C3344",
+          "rgb": {
+            "r": 44,
+            "g": 51,
+            "b": 68
+          },
+          "hsl": {
+            "h": 222.49999999999997,
+            "s": 0.21428571428571427,
+            "l": 0.2196078431372549
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "fg_primary": {
+          "name": "Foreground Primary",
+          "order": 6,
+          "hex": "#D4D8E4",
+          "rgb": {
+            "r": 212,
+            "g": 216,
+            "b": 228
+          },
+          "hsl": {
+            "h": 225.00000000000006,
+            "s": 0.22857142857142865,
+            "l": 0.8627450980392157
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "fg_secondary": {
+          "name": "Foreground Secondary",
+          "order": 7,
+          "hex": "#9EA6BD",
+          "rgb": {
+            "r": 158,
+            "g": 166,
+            "b": 189
+          },
+          "hsl": {
+            "h": 224.51612903225808,
+            "s": 0.19018404907975464,
+            "l": 0.6803921568627451
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "fg_muted": {
+          "name": "Foreground Muted",
+          "order": 8,
+          "hex": "#7C859E",
+          "rgb": {
+            "r": 124,
+            "g": 133,
+            "b": 158
+          },
+          "hsl": {
+            "h": 224.1176470588235,
+            "s": 0.1491228070175439,
+            "l": 0.5529411764705883
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "comment": {
+          "name": "Comment",
+          "order": 9,
+          "hex": "#626B80",
+          "rgb": {
+            "r": 98,
+            "g": 107,
+            "b": 128
+          },
+          "hsl": {
+            "h": 222,
+            "s": 0.1327433628318584,
+            "l": 0.44313725490196076
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "blue": {
+          "name": "Blue",
+          "order": 10,
+          "hex": "#6F88E6",
+          "rgb": {
+            "r": 111,
+            "g": 136,
+            "b": 230
+          },
+          "hsl": {
+            "h": 227.39495798319328,
+            "s": 0.7041420118343197,
+            "l": 0.6686274509803922
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "blue_soft": {
+          "name": "Blue Soft",
+          "order": 11,
+          "hex": "#5C73C7",
+          "rgb": {
+            "r": 92,
+            "g": 115,
+            "b": 199
+          },
+          "hsl": {
+            "h": 227.10280373831776,
+            "s": 0.4885844748858447,
+            "l": 0.5705882352941176
+          },
+          "accent": true,
+          "category": "accent",
+          "variantOf": "blue"
+        },
+        "cyan": {
+          "name": "Cyan",
+          "order": 12,
+          "hex": "#58AFC2",
+          "rgb": {
+            "r": 88,
+            "g": 175,
+            "b": 194
+          },
+          "hsl": {
+            "h": 190.75471698113208,
+            "s": 0.4649122807017544,
+            "l": 0.5529411764705883
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "teal": {
+          "name": "Teal",
+          "order": 13,
+          "hex": "#5CA3B2",
+          "rgb": {
+            "r": 92,
+            "g": 163,
+            "b": 178
+          },
+          "hsl": {
+            "h": 190.46511627906978,
+            "s": 0.3583333333333333,
+            "l": 0.5294117647058824
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "green": {
+          "name": "Green",
+          "order": 14,
+          "hex": "#6ABF88",
+          "rgb": {
+            "r": 106,
+            "g": 191,
+            "b": 136
+          },
+          "hsl": {
+            "h": 141.1764705882353,
+            "s": 0.3990610328638498,
+            "l": 0.5823529411764706
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "yellow": {
+          "name": "Yellow",
+          "order": 15,
+          "hex": "#D2B46F",
+          "rgb": {
+            "r": 210,
+            "g": 180,
+            "b": 111
+          },
+          "hsl": {
+            "h": 41.81818181818183,
+            "s": 0.5238095238095237,
+            "l": 0.6294117647058823
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "orange": {
+          "name": "Orange",
+          "order": 16,
+          "hex": "#C98C6A",
+          "rgb": {
+            "r": 201,
+            "g": 140,
+            "b": 106
+          },
+          "hsl": {
+            "h": 21.473684210526322,
+            "s": 0.4679802955665024,
+            "l": 0.6019607843137255
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "red": {
+          "name": "Red",
+          "order": 17,
+          "hex": "#D37D82",
+          "rgb": {
+            "r": 211,
+            "g": 125,
+            "b": 130
+          },
+          "hsl": {
+            "h": 356.51162790697674,
+            "s": 0.49425287356321834,
+            "l": 0.6588235294117647
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "purple": {
+          "name": "Purple",
+          "order": 18,
+          "hex": "#A98CE8",
+          "rgb": {
+            "r": 169,
+            "g": 140,
+            "b": 232
+          },
+          "hsl": {
+            "h": 258.9130434782609,
+            "s": 0.6666666666666667,
+            "l": 0.7294117647058824
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "selection": {
+          "name": "Selection",
+          "order": 19,
+          "hex": "#263045",
+          "rgb": {
+            "r": 38,
+            "g": 48,
+            "b": 69
+          },
+          "hsl": {
+            "h": 220.64516129032256,
+            "s": 0.2897196261682243,
+            "l": 0.20980392156862743
+          },
+          "accent": false,
+          "category": "utility"
+        },
+        "cursor": {
+          "name": "Cursor",
+          "order": 20,
+          "hex": "#7C93F2",
+          "rgb": {
+            "r": 124,
+            "g": 147,
+            "b": 242
+          },
+          "hsl": {
+            "h": 228.3050847457627,
+            "s": 0.8194444444444444,
+            "l": 0.7176470588235294
+          },
+          "accent": false,
+          "category": "utility"
+        },
+        "success": {
+          "name": "Success",
+          "order": 21,
+          "hex": "#6ABF88",
+          "rgb": {
+            "r": 106,
+            "g": 191,
+            "b": 136
+          },
+          "hsl": {
+            "h": 141.1764705882353,
+            "s": 0.3990610328638498,
+            "l": 0.5823529411764706
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "green"
+        },
+        "warning": {
+          "name": "Warning",
+          "order": 22,
+          "hex": "#D2B46F",
+          "rgb": {
+            "r": 210,
+            "g": 180,
+            "b": 111
+          },
+          "hsl": {
+            "h": 41.81818181818183,
+            "s": 0.5238095238095237,
+            "l": 0.6294117647058823
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "yellow"
+        },
+        "error": {
+          "name": "Error",
+          "order": 23,
+          "hex": "#D37D82",
+          "rgb": {
+            "r": 211,
+            "g": 125,
+            "b": 130
+          },
+          "hsl": {
+            "h": 356.51162790697674,
+            "s": 0.49425287356321834,
+            "l": 0.6588235294117647
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "red"
+        },
+        "info": {
+          "name": "Info",
+          "order": 24,
+          "hex": "#6F88E6",
+          "rgb": {
+            "r": 111,
+            "g": 136,
+            "b": 230
+          },
+          "hsl": {
+            "h": 227.39495798319328,
+            "s": 0.7041420118343197,
+            "l": 0.6686274509803922
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "blue"
+        },
+        "diff_add": {
+          "name": "Diff Add",
+          "order": 25,
+          "hex": "#2C4A3C",
+          "rgb": {
+            "r": 44,
+            "g": 74,
+            "b": 60
+          },
+          "hsl": {
+            "h": 152,
+            "s": 0.25423728813559326,
+            "l": 0.23137254901960785
+          },
+          "accent": false,
+          "category": "semantic"
+        }
+      },
+      "ansiColors": {
+        "black": {
+          "name": "Black",
+          "order": 0,
+          "normal": {
+            "name": "Black",
+            "hex": "#222837",
+            "rgb": {
+              "r": 34,
+              "g": 40,
+              "b": 55
+            },
+            "hsl": {
+              "h": 222.85714285714286,
+              "s": 0.23595505617977533,
+              "l": 0.17450980392156862
+            },
+            "code": 0
+          },
+          "bright": {
+            "name": "Bright Black",
+            "hex": "#2A3142",
+            "rgb": {
+              "r": 42,
+              "g": 49,
+              "b": 66
+            },
+            "hsl": {
+              "h": 222.49999999999997,
+              "s": 0.22222222222222227,
+              "l": 0.21176470588235297
+            },
+            "code": 8
+          }
+        },
+        "red": {
+          "name": "Red",
+          "order": 1,
+          "normal": {
+            "name": "Red",
+            "hex": "#D37D82",
+            "rgb": {
+              "r": 211,
+              "g": 125,
+              "b": 130
+            },
+            "hsl": {
+              "h": 356.51162790697674,
+              "s": 0.49425287356321834,
+              "l": 0.6588235294117647
+            },
+            "code": 1
+          },
+          "bright": {
+            "name": "Bright Red",
+            "hex": "#E1989A",
+            "rgb": {
+              "r": 225,
+              "g": 152,
+              "b": 154
+            },
+            "hsl": {
+              "h": 358.35616438356163,
+              "s": 0.5488721804511278,
+              "l": 0.7392156862745098
+            },
+            "code": 9
+          }
+        },
+        "green": {
+          "name": "Green",
+          "order": 2,
+          "normal": {
+            "name": "Green",
+            "hex": "#6ABF88",
+            "rgb": {
+              "r": 106,
+              "g": 191,
+              "b": 136
+            },
+            "hsl": {
+              "h": 141.1764705882353,
+              "s": 0.3990610328638498,
+              "l": 0.5823529411764706
+            },
+            "code": 2
+          },
+          "bright": {
+            "name": "Bright Green",
+            "hex": "#82D0A0",
+            "rgb": {
+              "r": 130,
+              "g": 208,
+              "b": 160
+            },
+            "hsl": {
+              "h": 143.07692307692307,
+              "s": 0.4534883720930233,
+              "l": 0.6627450980392157
+            },
+            "code": 10
+          }
+        },
+        "yellow": {
+          "name": "Yellow",
+          "order": 3,
+          "normal": {
+            "name": "Yellow",
+            "hex": "#D2B46F",
+            "rgb": {
+              "r": 210,
+              "g": 180,
+              "b": 111
+            },
+            "hsl": {
+              "h": 41.81818181818183,
+              "s": 0.5238095238095237,
+              "l": 0.6294117647058823
+            },
+            "code": 3
+          },
+          "bright": {
+            "name": "Bright Yellow",
+            "hex": "#DFC88A",
+            "rgb": {
+              "r": 223,
+              "g": 200,
+              "b": 138
+            },
+            "hsl": {
+              "h": 43.76470588235294,
+              "s": 0.5704697986577181,
+              "l": 0.7078431372549019
+            },
+            "code": 11
+          }
+        },
+        "blue": {
+          "name": "Blue",
+          "order": 4,
+          "normal": {
+            "name": "Blue",
+            "hex": "#6F88E6",
+            "rgb": {
+              "r": 111,
+              "g": 136,
+              "b": 230
+            },
+            "hsl": {
+              "h": 227.39495798319328,
+              "s": 0.7041420118343197,
+              "l": 0.6686274509803922
+            },
+            "code": 4
+          },
+          "bright": {
+            "name": "Bright Blue",
+            "hex": "#8FA0EF",
+            "rgb": {
+              "r": 143,
+              "g": 160,
+              "b": 239
+            },
+            "hsl": {
+              "h": 229.375,
+              "s": 0.75,
+              "l": 0.7490196078431373
+            },
+            "code": 12
+          }
+        },
+        "magenta": {
+          "name": "Magenta",
+          "order": 5,
+          "normal": {
+            "name": "Magenta",
+            "hex": "#A98CE8",
+            "rgb": {
+              "r": 169,
+              "g": 140,
+              "b": 232
+            },
+            "hsl": {
+              "h": 258.9130434782609,
+              "s": 0.6666666666666667,
+              "l": 0.7294117647058824
+            },
+            "code": 5
+          },
+          "bright": {
+            "name": "Bright Magenta",
+            "hex": "#C4ACF1",
+            "rgb": {
+              "r": 196,
+              "g": 172,
+              "b": 241
+            },
+            "hsl": {
+              "h": 260.8695652173913,
+              "s": 0.7113402061855668,
+              "l": 0.8098039215686275
+            },
+            "code": 13
+          }
+        },
+        "cyan": {
+          "name": "Cyan",
+          "order": 6,
+          "normal": {
+            "name": "Cyan",
+            "hex": "#58AFC2",
+            "rgb": {
+              "r": 88,
+              "g": 175,
+              "b": 194
+            },
+            "hsl": {
+              "h": 190.75471698113208,
+              "s": 0.4649122807017544,
+              "l": 0.5529411764705883
+            },
+            "code": 6
+          },
+          "bright": {
+            "name": "Bright Cyan",
+            "hex": "#71BDD2",
+            "rgb": {
+              "r": 113,
+              "g": 189,
+              "b": 210
+            },
+            "hsl": {
+              "h": 192.98969072164945,
+              "s": 0.5187165775401069,
+              "l": 0.6333333333333333
+            },
+            "code": 14
+          }
+        },
+        "white": {
+          "name": "White",
+          "order": 7,
+          "normal": {
+            "name": "White",
+            "hex": "#7C859E",
+            "rgb": {
+              "r": 124,
+              "g": 133,
+              "b": 158
+            },
+            "hsl": {
+              "h": 224.1176470588235,
+              "s": 0.1491228070175439,
+              "l": 0.5529411764705883
+            },
+            "code": 7
+          },
+          "bright": {
+            "name": "Bright White",
+            "hex": "#9EA6BD",
+            "rgb": {
+              "r": 158,
+              "g": 166,
+              "b": 189
+            },
+            "hsl": {
+              "h": 224.51612903225808,
+              "s": 0.19018404907975464,
+              "l": 0.6803921568627451
+            },
+            "code": 15
+          }
+        }
       }
     },
-
     "shadow": {
+      "name": "Shadow",
+      "emoji": "🌘",
+      "order": 1,
       "type": "dark",
-      "colors": {
+      "dark": true,
+      "contrast": "medium",
+      "description": "Balanced dark flavour with slightly lifted surfaces and accents.",
+      "colorOrder": [
+        "bg_0",
+        "bg_1",
+        "bg_2",
+        "bg_3",
+        "bg_4",
+        "border",
+        "fg_primary",
+        "fg_secondary",
+        "fg_muted",
+        "comment",
+        "blue",
+        "blue_soft",
+        "cyan",
+        "teal",
+        "green",
+        "yellow",
+        "orange",
+        "red",
+        "purple",
+        "selection",
+        "cursor",
+        "success",
+        "warning",
+        "error",
+        "info",
+        "diff_add"
+      ],
+      "groups": {
+        "surfaces": [
+          "bg_0",
+          "bg_1",
+          "bg_2",
+          "bg_3",
+          "bg_4",
+          "border"
+        ],
+        "foregrounds": [
+          "fg_primary",
+          "fg_secondary",
+          "fg_muted",
+          "comment"
+        ],
+        "accents": [
+          "blue",
+          "blue_soft",
+          "cyan",
+          "teal",
+          "green",
+          "yellow",
+          "orange",
+          "red",
+          "purple"
+        ],
+        "utilities": [
+          "selection",
+          "cursor"
+        ],
+        "semantics": [
+          "success",
+          "warning",
+          "error",
+          "info",
+          "diff_add"
+        ]
+      },
+      "rawColors": {
         "bg_0": "#10131A",
         "bg_1": "#181C24",
         "bg_2": "#1E2432",
         "bg_3": "#242B3A",
         "bg_4": "#2E3546",
         "border": "#2E3445",
-
         "fg_primary": "#D6DBE8",
         "fg_secondary": "#A4ABC2",
         "fg_muted": "#858DA6",
         "comment": "#687188",
-
         "blue": "#6F88E6",
         "blue_soft": "#6078D4",
         "cyan": "#5BB5C8",
@@ -65,7 +932,6 @@
         "orange": "#CF9272",
         "red": "#DA848A",
         "purple": "#AF92EE",
-
         "selection": "#2A344A",
         "cursor": "#88A0FF",
         "success": "#70C693",
@@ -73,24 +939,816 @@
         "error": "#DA848A",
         "info": "#6F88E6",
         "diff_add": "#315042"
+      },
+      "colors": {
+        "bg_0": {
+          "name": "Background 0",
+          "order": 0,
+          "hex": "#10131A",
+          "rgb": {
+            "r": 16,
+            "g": 19,
+            "b": 26
+          },
+          "hsl": {
+            "h": 222,
+            "s": 0.23809523809523814,
+            "l": 0.08235294117647059
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_1": {
+          "name": "Background 1",
+          "order": 1,
+          "hex": "#181C24",
+          "rgb": {
+            "r": 24,
+            "g": 28,
+            "b": 36
+          },
+          "hsl": {
+            "h": 220,
+            "s": 0.19999999999999996,
+            "l": 0.11764705882352941
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_2": {
+          "name": "Background 2",
+          "order": 2,
+          "hex": "#1E2432",
+          "rgb": {
+            "r": 30,
+            "g": 36,
+            "b": 50
+          },
+          "hsl": {
+            "h": 222,
+            "s": 0.25,
+            "l": 0.1568627450980392
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_3": {
+          "name": "Background 3",
+          "order": 3,
+          "hex": "#242B3A",
+          "rgb": {
+            "r": 36,
+            "g": 43,
+            "b": 58
+          },
+          "hsl": {
+            "h": 220.9090909090909,
+            "s": 0.23404255319148934,
+            "l": 0.1843137254901961
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_4": {
+          "name": "Background 4",
+          "order": 4,
+          "hex": "#2E3546",
+          "rgb": {
+            "r": 46,
+            "g": 53,
+            "b": 70
+          },
+          "hsl": {
+            "h": 222.49999999999997,
+            "s": 0.20689655172413796,
+            "l": 0.2274509803921569
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "border": {
+          "name": "Border",
+          "order": 5,
+          "hex": "#2E3445",
+          "rgb": {
+            "r": 46,
+            "g": 52,
+            "b": 69
+          },
+          "hsl": {
+            "h": 224.3478260869565,
+            "s": 0.19999999999999998,
+            "l": 0.22549019607843135
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "fg_primary": {
+          "name": "Foreground Primary",
+          "order": 6,
+          "hex": "#D6DBE8",
+          "rgb": {
+            "r": 214,
+            "g": 219,
+            "b": 232
+          },
+          "hsl": {
+            "h": 223.3333333333334,
+            "s": 0.2812499999999999,
+            "l": 0.8745098039215686
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "fg_secondary": {
+          "name": "Foreground Secondary",
+          "order": 7,
+          "hex": "#A4ABC2",
+          "rgb": {
+            "r": 164,
+            "g": 171,
+            "b": 194
+          },
+          "hsl": {
+            "h": 226.00000000000006,
+            "s": 0.19736842105263142,
+            "l": 0.7019607843137254
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "fg_muted": {
+          "name": "Foreground Muted",
+          "order": 8,
+          "hex": "#858DA6",
+          "rgb": {
+            "r": 133,
+            "g": 141,
+            "b": 166
+          },
+          "hsl": {
+            "h": 225.45454545454544,
+            "s": 0.15639810426540282,
+            "l": 0.5862745098039216
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "comment": {
+          "name": "Comment",
+          "order": 9,
+          "hex": "#687188",
+          "rgb": {
+            "r": 104,
+            "g": 113,
+            "b": 136
+          },
+          "hsl": {
+            "h": 223.125,
+            "s": 0.13333333333333333,
+            "l": 0.47058823529411764
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "blue": {
+          "name": "Blue",
+          "order": 10,
+          "hex": "#6F88E6",
+          "rgb": {
+            "r": 111,
+            "g": 136,
+            "b": 230
+          },
+          "hsl": {
+            "h": 227.39495798319328,
+            "s": 0.7041420118343197,
+            "l": 0.6686274509803922
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "blue_soft": {
+          "name": "Blue Soft",
+          "order": 11,
+          "hex": "#6078D4",
+          "rgb": {
+            "r": 96,
+            "g": 120,
+            "b": 212
+          },
+          "hsl": {
+            "h": 227.58620689655172,
+            "s": 0.5742574257425744,
+            "l": 0.603921568627451
+          },
+          "accent": true,
+          "category": "accent",
+          "variantOf": "blue"
+        },
+        "cyan": {
+          "name": "Cyan",
+          "order": 12,
+          "hex": "#5BB5C8",
+          "rgb": {
+            "r": 91,
+            "g": 181,
+            "b": 200
+          },
+          "hsl": {
+            "h": 190.45871559633028,
+            "s": 0.49771689497716887,
+            "l": 0.5705882352941176
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "teal": {
+          "name": "Teal",
+          "order": 13,
+          "hex": "#60A9B8",
+          "rgb": {
+            "r": 96,
+            "g": 169,
+            "b": 184
+          },
+          "hsl": {
+            "h": 190.22727272727272,
+            "s": 0.3826086956521739,
+            "l": 0.5490196078431373
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "green": {
+          "name": "Green",
+          "order": 14,
+          "hex": "#70C693",
+          "rgb": {
+            "r": 112,
+            "g": 198,
+            "b": 147
+          },
+          "hsl": {
+            "h": 144.41860465116278,
+            "s": 0.4300000000000001,
+            "l": 0.607843137254902
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "yellow": {
+          "name": "Yellow",
+          "order": 15,
+          "hex": "#D8BB78",
+          "rgb": {
+            "r": 216,
+            "g": 187,
+            "b": 120
+          },
+          "hsl": {
+            "h": 41.87499999999999,
+            "s": 0.5517241379310345,
+            "l": 0.6588235294117647
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "orange": {
+          "name": "Orange",
+          "order": 16,
+          "hex": "#CF9272",
+          "rgb": {
+            "r": 207,
+            "g": 146,
+            "b": 114
+          },
+          "hsl": {
+            "h": 20.645161290322573,
+            "s": 0.49206349206349204,
+            "l": 0.6294117647058823
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "red": {
+          "name": "Red",
+          "order": 17,
+          "hex": "#DA848A",
+          "rgb": {
+            "r": 218,
+            "g": 132,
+            "b": 138
+          },
+          "hsl": {
+            "h": 355.8139534883721,
+            "s": 0.5374999999999999,
+            "l": 0.6862745098039216
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "purple": {
+          "name": "Purple",
+          "order": 18,
+          "hex": "#AF92EE",
+          "rgb": {
+            "r": 175,
+            "g": 146,
+            "b": 238
+          },
+          "hsl": {
+            "h": 258.9130434782609,
+            "s": 0.7301587301587302,
+            "l": 0.7529411764705882
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "selection": {
+          "name": "Selection",
+          "order": 19,
+          "hex": "#2A344A",
+          "rgb": {
+            "r": 42,
+            "g": 52,
+            "b": 74
+          },
+          "hsl": {
+            "h": 221.25,
+            "s": 0.2758620689655173,
+            "l": 0.2274509803921569
+          },
+          "accent": false,
+          "category": "utility"
+        },
+        "cursor": {
+          "name": "Cursor",
+          "order": 20,
+          "hex": "#88A0FF",
+          "rgb": {
+            "r": 136,
+            "g": 160,
+            "b": 255
+          },
+          "hsl": {
+            "h": 227.89915966386553,
+            "s": 0.9999999999999998,
+            "l": 0.7666666666666666
+          },
+          "accent": false,
+          "category": "utility"
+        },
+        "success": {
+          "name": "Success",
+          "order": 21,
+          "hex": "#70C693",
+          "rgb": {
+            "r": 112,
+            "g": 198,
+            "b": 147
+          },
+          "hsl": {
+            "h": 144.41860465116278,
+            "s": 0.4300000000000001,
+            "l": 0.607843137254902
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "green"
+        },
+        "warning": {
+          "name": "Warning",
+          "order": 22,
+          "hex": "#D8BB78",
+          "rgb": {
+            "r": 216,
+            "g": 187,
+            "b": 120
+          },
+          "hsl": {
+            "h": 41.87499999999999,
+            "s": 0.5517241379310345,
+            "l": 0.6588235294117647
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "yellow"
+        },
+        "error": {
+          "name": "Error",
+          "order": 23,
+          "hex": "#DA848A",
+          "rgb": {
+            "r": 218,
+            "g": 132,
+            "b": 138
+          },
+          "hsl": {
+            "h": 355.8139534883721,
+            "s": 0.5374999999999999,
+            "l": 0.6862745098039216
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "red"
+        },
+        "info": {
+          "name": "Info",
+          "order": 24,
+          "hex": "#6F88E6",
+          "rgb": {
+            "r": 111,
+            "g": 136,
+            "b": 230
+          },
+          "hsl": {
+            "h": 227.39495798319328,
+            "s": 0.7041420118343197,
+            "l": 0.6686274509803922
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "blue"
+        },
+        "diff_add": {
+          "name": "Diff Add",
+          "order": 25,
+          "hex": "#315042",
+          "rgb": {
+            "r": 49,
+            "g": 80,
+            "b": 66
+          },
+          "hsl": {
+            "h": 152.90322580645164,
+            "s": 0.24031007751937983,
+            "l": 0.2529411764705882
+          },
+          "accent": false,
+          "category": "semantic"
+        }
+      },
+      "ansiColors": {
+        "black": {
+          "name": "Black",
+          "order": 0,
+          "normal": {
+            "name": "Black",
+            "hex": "#242B3A",
+            "rgb": {
+              "r": 36,
+              "g": 43,
+              "b": 58
+            },
+            "hsl": {
+              "h": 220.9090909090909,
+              "s": 0.23404255319148934,
+              "l": 0.1843137254901961
+            },
+            "code": 0
+          },
+          "bright": {
+            "name": "Bright Black",
+            "hex": "#2E3546",
+            "rgb": {
+              "r": 46,
+              "g": 53,
+              "b": 70
+            },
+            "hsl": {
+              "h": 222.49999999999997,
+              "s": 0.20689655172413796,
+              "l": 0.2274509803921569
+            },
+            "code": 8
+          }
+        },
+        "red": {
+          "name": "Red",
+          "order": 1,
+          "normal": {
+            "name": "Red",
+            "hex": "#DA848A",
+            "rgb": {
+              "r": 218,
+              "g": 132,
+              "b": 138
+            },
+            "hsl": {
+              "h": 355.8139534883721,
+              "s": 0.5374999999999999,
+              "l": 0.6862745098039216
+            },
+            "code": 1
+          },
+          "bright": {
+            "name": "Bright Red",
+            "hex": "#E6A0A3",
+            "rgb": {
+              "r": 230,
+              "g": 160,
+              "b": 163
+            },
+            "hsl": {
+              "h": 357.42857142857144,
+              "s": 0.5833333333333333,
+              "l": 0.7647058823529411
+            },
+            "code": 9
+          }
+        },
+        "green": {
+          "name": "Green",
+          "order": 2,
+          "normal": {
+            "name": "Green",
+            "hex": "#70C693",
+            "rgb": {
+              "r": 112,
+              "g": 198,
+              "b": 147
+            },
+            "hsl": {
+              "h": 144.41860465116278,
+              "s": 0.4300000000000001,
+              "l": 0.607843137254902
+            },
+            "code": 2
+          },
+          "bright": {
+            "name": "Bright Green",
+            "hex": "#89D6AB",
+            "rgb": {
+              "r": 137,
+              "g": 214,
+              "b": 171
+            },
+            "hsl": {
+              "h": 146.4935064935065,
+              "s": 0.4842767295597485,
+              "l": 0.6882352941176471
+            },
+            "code": 10
+          }
+        },
+        "yellow": {
+          "name": "Yellow",
+          "order": 3,
+          "normal": {
+            "name": "Yellow",
+            "hex": "#D8BB78",
+            "rgb": {
+              "r": 216,
+              "g": 187,
+              "b": 120
+            },
+            "hsl": {
+              "h": 41.87499999999999,
+              "s": 0.5517241379310345,
+              "l": 0.6588235294117647
+            },
+            "code": 3
+          },
+          "bright": {
+            "name": "Bright Yellow",
+            "hex": "#E4CF94",
+            "rgb": {
+              "r": 228,
+              "g": 207,
+              "b": 148
+            },
+            "hsl": {
+              "h": 44.249999999999986,
+              "s": 0.5970149253731344,
+              "l": 0.7372549019607844
+            },
+            "code": 11
+          }
+        },
+        "blue": {
+          "name": "Blue",
+          "order": 4,
+          "normal": {
+            "name": "Blue",
+            "hex": "#6F88E6",
+            "rgb": {
+              "r": 111,
+              "g": 136,
+              "b": 230
+            },
+            "hsl": {
+              "h": 227.39495798319328,
+              "s": 0.7041420118343197,
+              "l": 0.6686274509803922
+            },
+            "code": 4
+          },
+          "bright": {
+            "name": "Bright Blue",
+            "hex": "#8FA0EF",
+            "rgb": {
+              "r": 143,
+              "g": 160,
+              "b": 239
+            },
+            "hsl": {
+              "h": 229.375,
+              "s": 0.75,
+              "l": 0.7490196078431373
+            },
+            "code": 12
+          }
+        },
+        "magenta": {
+          "name": "Magenta",
+          "order": 5,
+          "normal": {
+            "name": "Magenta",
+            "hex": "#AF92EE",
+            "rgb": {
+              "r": 175,
+              "g": 146,
+              "b": 238
+            },
+            "hsl": {
+              "h": 258.9130434782609,
+              "s": 0.7301587301587302,
+              "l": 0.7529411764705882
+            },
+            "code": 5
+          },
+          "bright": {
+            "name": "Bright Magenta",
+            "hex": "#CAB3F6",
+            "rgb": {
+              "r": 202,
+              "g": 179,
+              "b": 246
+            },
+            "hsl": {
+              "h": 260.5970149253731,
+              "s": 0.7882352941176469,
+              "l": 0.8333333333333333
+            },
+            "code": 13
+          }
+        },
+        "cyan": {
+          "name": "Cyan",
+          "order": 6,
+          "normal": {
+            "name": "Cyan",
+            "hex": "#5BB5C8",
+            "rgb": {
+              "r": 91,
+              "g": 181,
+              "b": 200
+            },
+            "hsl": {
+              "h": 190.45871559633028,
+              "s": 0.49771689497716887,
+              "l": 0.5705882352941176
+            },
+            "code": 6
+          },
+          "bright": {
+            "name": "Bright Cyan",
+            "hex": "#75C2D7",
+            "rgb": {
+              "r": 117,
+              "g": 194,
+              "b": 215
+            },
+            "hsl": {
+              "h": 192.85714285714286,
+              "s": 0.550561797752809,
+              "l": 0.6509803921568628
+            },
+            "code": 14
+          }
+        },
+        "white": {
+          "name": "White",
+          "order": 7,
+          "normal": {
+            "name": "White",
+            "hex": "#858DA6",
+            "rgb": {
+              "r": 133,
+              "g": 141,
+              "b": 166
+            },
+            "hsl": {
+              "h": 225.45454545454544,
+              "s": 0.15639810426540282,
+              "l": 0.5862745098039216
+            },
+            "code": 7
+          },
+          "bright": {
+            "name": "Bright White",
+            "hex": "#A4ABC2",
+            "rgb": {
+              "r": 164,
+              "g": 171,
+              "b": 194
+            },
+            "hsl": {
+              "h": 226.00000000000006,
+              "s": 0.19736842105263142,
+              "l": 0.7019607843137254
+            },
+            "code": 15
+          }
+        }
       }
     },
-
     "obsidian": {
+      "name": "Obsidian",
+      "emoji": "🌒",
+      "order": 2,
       "type": "dark",
-      "colors": {
+      "dark": true,
+      "contrast": "high",
+      "description": "Highest-contrast dark flavour with the clearest separation of layers.",
+      "colorOrder": [
+        "bg_0",
+        "bg_1",
+        "bg_2",
+        "bg_3",
+        "bg_4",
+        "border",
+        "fg_primary",
+        "fg_secondary",
+        "fg_muted",
+        "comment",
+        "blue",
+        "blue_soft",
+        "cyan",
+        "teal",
+        "green",
+        "yellow",
+        "orange",
+        "red",
+        "purple",
+        "selection",
+        "cursor",
+        "success",
+        "warning",
+        "error",
+        "info",
+        "diff_add"
+      ],
+      "groups": {
+        "surfaces": [
+          "bg_0",
+          "bg_1",
+          "bg_2",
+          "bg_3",
+          "bg_4",
+          "border"
+        ],
+        "foregrounds": [
+          "fg_primary",
+          "fg_secondary",
+          "fg_muted",
+          "comment"
+        ],
+        "accents": [
+          "blue",
+          "blue_soft",
+          "cyan",
+          "teal",
+          "green",
+          "yellow",
+          "orange",
+          "red",
+          "purple"
+        ],
+        "utilities": [
+          "selection",
+          "cursor"
+        ],
+        "semantics": [
+          "success",
+          "warning",
+          "error",
+          "info",
+          "diff_add"
+        ]
+      },
+      "rawColors": {
         "bg_0": "#141821",
         "bg_1": "#1B202B",
         "bg_2": "#222838",
         "bg_3": "#2A3142",
         "bg_4": "#333A4D",
         "border": "#353C50",
-
         "fg_primary": "#D9DEEA",
         "fg_secondary": "#A8AFC8",
         "fg_muted": "#8891A8",
         "comment": "#6C748A",
-
         "blue": "#748EF2",
         "blue_soft": "#5F77D1",
         "cyan": "#5DB8CB",
@@ -100,7 +1758,6 @@
         "orange": "#D49776",
         "red": "#DE8A90",
         "purple": "#B297F0",
-
         "selection": "#2F3850",
         "cursor": "#92A9FF",
         "success": "#74C99B",
@@ -108,24 +1765,816 @@
         "error": "#DE8A90",
         "info": "#748EF2",
         "diff_add": "#355347"
+      },
+      "colors": {
+        "bg_0": {
+          "name": "Background 0",
+          "order": 0,
+          "hex": "#141821",
+          "rgb": {
+            "r": 20,
+            "g": 24,
+            "b": 33
+          },
+          "hsl": {
+            "h": 221.53846153846155,
+            "s": 0.24528301886792456,
+            "l": 0.10392156862745099
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_1": {
+          "name": "Background 1",
+          "order": 1,
+          "hex": "#1B202B",
+          "rgb": {
+            "r": 27,
+            "g": 32,
+            "b": 43
+          },
+          "hsl": {
+            "h": 221.25,
+            "s": 0.2285714285714286,
+            "l": 0.13725490196078433
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_2": {
+          "name": "Background 2",
+          "order": 2,
+          "hex": "#222838",
+          "rgb": {
+            "r": 34,
+            "g": 40,
+            "b": 56
+          },
+          "hsl": {
+            "h": 223.63636363636365,
+            "s": 0.24444444444444446,
+            "l": 0.1764705882352941
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_3": {
+          "name": "Background 3",
+          "order": 3,
+          "hex": "#2A3142",
+          "rgb": {
+            "r": 42,
+            "g": 49,
+            "b": 66
+          },
+          "hsl": {
+            "h": 222.49999999999997,
+            "s": 0.22222222222222227,
+            "l": 0.21176470588235297
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_4": {
+          "name": "Background 4",
+          "order": 4,
+          "hex": "#333A4D",
+          "rgb": {
+            "r": 51,
+            "g": 58,
+            "b": 77
+          },
+          "hsl": {
+            "h": 223.84615384615384,
+            "s": 0.20312499999999994,
+            "l": 0.25098039215686274
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "border": {
+          "name": "Border",
+          "order": 5,
+          "hex": "#353C50",
+          "rgb": {
+            "r": 53,
+            "g": 60,
+            "b": 80
+          },
+          "hsl": {
+            "h": 224.44444444444446,
+            "s": 0.20300751879699244,
+            "l": 0.2607843137254902
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "fg_primary": {
+          "name": "Foreground Primary",
+          "order": 6,
+          "hex": "#D9DEEA",
+          "rgb": {
+            "r": 217,
+            "g": 222,
+            "b": 234
+          },
+          "hsl": {
+            "h": 222.35294117647055,
+            "s": 0.2881355932203388,
+            "l": 0.884313725490196
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "fg_secondary": {
+          "name": "Foreground Secondary",
+          "order": 7,
+          "hex": "#A8AFC8",
+          "rgb": {
+            "r": 168,
+            "g": 175,
+            "b": 200
+          },
+          "hsl": {
+            "h": 226.875,
+            "s": 0.22535211267605632,
+            "l": 0.7215686274509804
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "fg_muted": {
+          "name": "Foreground Muted",
+          "order": 8,
+          "hex": "#8891A8",
+          "rgb": {
+            "r": 136,
+            "g": 145,
+            "b": 168
+          },
+          "hsl": {
+            "h": 223.125,
+            "s": 0.1553398058252427,
+            "l": 0.596078431372549
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "comment": {
+          "name": "Comment",
+          "order": 9,
+          "hex": "#6C748A",
+          "rgb": {
+            "r": 108,
+            "g": 116,
+            "b": 138
+          },
+          "hsl": {
+            "h": 224,
+            "s": 0.1219512195121951,
+            "l": 0.48235294117647054
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "blue": {
+          "name": "Blue",
+          "order": 10,
+          "hex": "#748EF2",
+          "rgb": {
+            "r": 116,
+            "g": 142,
+            "b": 242
+          },
+          "hsl": {
+            "h": 227.61904761904762,
+            "s": 0.8289473684210524,
+            "l": 0.7019607843137254
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "blue_soft": {
+          "name": "Blue Soft",
+          "order": 11,
+          "hex": "#5F77D1",
+          "rgb": {
+            "r": 95,
+            "g": 119,
+            "b": 209
+          },
+          "hsl": {
+            "h": 227.36842105263156,
+            "s": 0.5533980582524272,
+            "l": 0.596078431372549
+          },
+          "accent": true,
+          "category": "accent",
+          "variantOf": "blue"
+        },
+        "cyan": {
+          "name": "Cyan",
+          "order": 12,
+          "hex": "#5DB8CB",
+          "rgb": {
+            "r": 93,
+            "g": 184,
+            "b": 203
+          },
+          "hsl": {
+            "h": 190.36363636363637,
+            "s": 0.5140186915887849,
+            "l": 0.580392156862745
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "teal": {
+          "name": "Teal",
+          "order": 13,
+          "hex": "#62AEBE",
+          "rgb": {
+            "r": 98,
+            "g": 174,
+            "b": 190
+          },
+          "hsl": {
+            "h": 190.43478260869566,
+            "s": 0.4144144144144144,
+            "l": 0.5647058823529412
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "green": {
+          "name": "Green",
+          "order": 14,
+          "hex": "#74C99B",
+          "rgb": {
+            "r": 116,
+            "g": 201,
+            "b": 155
+          },
+          "hsl": {
+            "h": 147.52941176470586,
+            "s": 0.44041450777202074,
+            "l": 0.6215686274509804
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "yellow": {
+          "name": "Yellow",
+          "order": 15,
+          "hex": "#DCBE7C",
+          "rgb": {
+            "r": 220,
+            "g": 190,
+            "b": 124
+          },
+          "hsl": {
+            "h": 41.25,
+            "s": 0.5783132530120484,
+            "l": 0.6745098039215687
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "orange": {
+          "name": "Orange",
+          "order": 16,
+          "hex": "#D49776",
+          "rgb": {
+            "r": 212,
+            "g": 151,
+            "b": 118
+          },
+          "hsl": {
+            "h": 21.063829787234038,
+            "s": 0.5222222222222223,
+            "l": 0.6470588235294118
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "red": {
+          "name": "Red",
+          "order": 17,
+          "hex": "#DE8A90",
+          "rgb": {
+            "r": 222,
+            "g": 138,
+            "b": 144
+          },
+          "hsl": {
+            "h": 355.7142857142857,
+            "s": 0.5599999999999999,
+            "l": 0.7058823529411764
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "purple": {
+          "name": "Purple",
+          "order": 18,
+          "hex": "#B297F0",
+          "rgb": {
+            "r": 178,
+            "g": 151,
+            "b": 240
+          },
+          "hsl": {
+            "h": 258.2022471910112,
+            "s": 0.7478991596638653,
+            "l": 0.7666666666666666
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "selection": {
+          "name": "Selection",
+          "order": 19,
+          "hex": "#2F3850",
+          "rgb": {
+            "r": 47,
+            "g": 56,
+            "b": 80
+          },
+          "hsl": {
+            "h": 223.63636363636365,
+            "s": 0.25984251968503935,
+            "l": 0.24901960784313726
+          },
+          "accent": false,
+          "category": "utility"
+        },
+        "cursor": {
+          "name": "Cursor",
+          "order": 20,
+          "hex": "#92A9FF",
+          "rgb": {
+            "r": 146,
+            "g": 169,
+            "b": 255
+          },
+          "hsl": {
+            "h": 227.3394495412844,
+            "s": 1,
+            "l": 0.7862745098039216
+          },
+          "accent": false,
+          "category": "utility"
+        },
+        "success": {
+          "name": "Success",
+          "order": 21,
+          "hex": "#74C99B",
+          "rgb": {
+            "r": 116,
+            "g": 201,
+            "b": 155
+          },
+          "hsl": {
+            "h": 147.52941176470586,
+            "s": 0.44041450777202074,
+            "l": 0.6215686274509804
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "green"
+        },
+        "warning": {
+          "name": "Warning",
+          "order": 22,
+          "hex": "#DCBE7C",
+          "rgb": {
+            "r": 220,
+            "g": 190,
+            "b": 124
+          },
+          "hsl": {
+            "h": 41.25,
+            "s": 0.5783132530120484,
+            "l": 0.6745098039215687
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "yellow"
+        },
+        "error": {
+          "name": "Error",
+          "order": 23,
+          "hex": "#DE8A90",
+          "rgb": {
+            "r": 222,
+            "g": 138,
+            "b": 144
+          },
+          "hsl": {
+            "h": 355.7142857142857,
+            "s": 0.5599999999999999,
+            "l": 0.7058823529411764
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "red"
+        },
+        "info": {
+          "name": "Info",
+          "order": 24,
+          "hex": "#748EF2",
+          "rgb": {
+            "r": 116,
+            "g": 142,
+            "b": 242
+          },
+          "hsl": {
+            "h": 227.61904761904762,
+            "s": 0.8289473684210524,
+            "l": 0.7019607843137254
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "blue"
+        },
+        "diff_add": {
+          "name": "Diff Add",
+          "order": 25,
+          "hex": "#355347",
+          "rgb": {
+            "r": 53,
+            "g": 83,
+            "b": 71
+          },
+          "hsl": {
+            "h": 156,
+            "s": 0.22058823529411764,
+            "l": 0.26666666666666666
+          },
+          "accent": false,
+          "category": "semantic"
+        }
+      },
+      "ansiColors": {
+        "black": {
+          "name": "Black",
+          "order": 0,
+          "normal": {
+            "name": "Black",
+            "hex": "#2A3142",
+            "rgb": {
+              "r": 42,
+              "g": 49,
+              "b": 66
+            },
+            "hsl": {
+              "h": 222.49999999999997,
+              "s": 0.22222222222222227,
+              "l": 0.21176470588235297
+            },
+            "code": 0
+          },
+          "bright": {
+            "name": "Bright Black",
+            "hex": "#333A4D",
+            "rgb": {
+              "r": 51,
+              "g": 58,
+              "b": 77
+            },
+            "hsl": {
+              "h": 223.84615384615384,
+              "s": 0.20312499999999994,
+              "l": 0.25098039215686274
+            },
+            "code": 8
+          }
+        },
+        "red": {
+          "name": "Red",
+          "order": 1,
+          "normal": {
+            "name": "Red",
+            "hex": "#DE8A90",
+            "rgb": {
+              "r": 222,
+              "g": 138,
+              "b": 144
+            },
+            "hsl": {
+              "h": 355.7142857142857,
+              "s": 0.5599999999999999,
+              "l": 0.7058823529411764
+            },
+            "code": 1
+          },
+          "bright": {
+            "name": "Bright Red",
+            "hex": "#EAA7AA",
+            "rgb": {
+              "r": 234,
+              "g": 167,
+              "b": 170
+            },
+            "hsl": {
+              "h": 357.3134328358209,
+              "s": 0.6146788990825687,
+              "l": 0.7862745098039216
+            },
+            "code": 9
+          }
+        },
+        "green": {
+          "name": "Green",
+          "order": 2,
+          "normal": {
+            "name": "Green",
+            "hex": "#74C99B",
+            "rgb": {
+              "r": 116,
+              "g": 201,
+              "b": 155
+            },
+            "hsl": {
+              "h": 147.52941176470586,
+              "s": 0.44041450777202074,
+              "l": 0.6215686274509804
+            },
+            "code": 2
+          },
+          "bright": {
+            "name": "Bright Green",
+            "hex": "#8ED8B2",
+            "rgb": {
+              "r": 142,
+              "g": 216,
+              "b": 178
+            },
+            "hsl": {
+              "h": 149.1891891891892,
+              "s": 0.48684210526315774,
+              "l": 0.7019607843137254
+            },
+            "code": 10
+          }
+        },
+        "yellow": {
+          "name": "Yellow",
+          "order": 3,
+          "normal": {
+            "name": "Yellow",
+            "hex": "#DCBE7C",
+            "rgb": {
+              "r": 220,
+              "g": 190,
+              "b": 124
+            },
+            "hsl": {
+              "h": 41.25,
+              "s": 0.5783132530120484,
+              "l": 0.6745098039215687
+            },
+            "code": 3
+          },
+          "bright": {
+            "name": "Bright Yellow",
+            "hex": "#E8D299",
+            "rgb": {
+              "r": 232,
+              "g": 210,
+              "b": 153
+            },
+            "hsl": {
+              "h": 43.291139240506325,
+              "s": 0.632,
+              "l": 0.7549019607843137
+            },
+            "code": 11
+          }
+        },
+        "blue": {
+          "name": "Blue",
+          "order": 4,
+          "normal": {
+            "name": "Blue",
+            "hex": "#748EF2",
+            "rgb": {
+              "r": 116,
+              "g": 142,
+              "b": 242
+            },
+            "hsl": {
+              "h": 227.61904761904762,
+              "s": 0.8289473684210524,
+              "l": 0.7019607843137254
+            },
+            "code": 4
+          },
+          "bright": {
+            "name": "Bright Blue",
+            "hex": "#97A7F8",
+            "rgb": {
+              "r": 151,
+              "g": 167,
+              "b": 248
+            },
+            "hsl": {
+              "h": 230.10309278350516,
+              "s": 0.8738738738738738,
+              "l": 0.7823529411764706
+            },
+            "code": 12
+          }
+        },
+        "magenta": {
+          "name": "Magenta",
+          "order": 5,
+          "normal": {
+            "name": "Magenta",
+            "hex": "#B297F0",
+            "rgb": {
+              "r": 178,
+              "g": 151,
+              "b": 240
+            },
+            "hsl": {
+              "h": 258.2022471910112,
+              "s": 0.7478991596638653,
+              "l": 0.7666666666666666
+            },
+            "code": 5
+          },
+          "bright": {
+            "name": "Bright Magenta",
+            "hex": "#CEB9F7",
+            "rgb": {
+              "r": 206,
+              "g": 185,
+              "b": 247
+            },
+            "hsl": {
+              "h": 260.3225806451613,
+              "s": 0.7948717948717949,
+              "l": 0.8470588235294118
+            },
+            "code": 13
+          }
+        },
+        "cyan": {
+          "name": "Cyan",
+          "order": 6,
+          "normal": {
+            "name": "Cyan",
+            "hex": "#5DB8CB",
+            "rgb": {
+              "r": 93,
+              "g": 184,
+              "b": 203
+            },
+            "hsl": {
+              "h": 190.36363636363637,
+              "s": 0.5140186915887849,
+              "l": 0.580392156862745
+            },
+            "code": 6
+          },
+          "bright": {
+            "name": "Bright Cyan",
+            "hex": "#78C5D9",
+            "rgb": {
+              "r": 120,
+              "g": 197,
+              "b": 217
+            },
+            "hsl": {
+              "h": 192.37113402061854,
+              "s": 0.5606936416184971,
+              "l": 0.6607843137254902
+            },
+            "code": 14
+          }
+        },
+        "white": {
+          "name": "White",
+          "order": 7,
+          "normal": {
+            "name": "White",
+            "hex": "#8891A8",
+            "rgb": {
+              "r": 136,
+              "g": 145,
+              "b": 168
+            },
+            "hsl": {
+              "h": 223.125,
+              "s": 0.1553398058252427,
+              "l": 0.596078431372549
+            },
+            "code": 7
+          },
+          "bright": {
+            "name": "Bright White",
+            "hex": "#A8AFC8",
+            "rgb": {
+              "r": 168,
+              "g": 175,
+              "b": 200
+            },
+            "hsl": {
+              "h": 226.875,
+              "s": 0.22535211267605632,
+              "l": 0.7215686274509804
+            },
+            "code": 15
+          }
+        }
       }
     },
-
     "dawn": {
+      "name": "Dawn",
+      "emoji": "🌅",
+      "order": 3,
       "type": "light",
-      "colors": {
+      "dark": false,
+      "contrast": "light",
+      "description": "Light flavour tuned to retain NightShift Lobo's muted precision.",
+      "colorOrder": [
+        "bg_0",
+        "bg_1",
+        "bg_2",
+        "bg_3",
+        "bg_4",
+        "border",
+        "fg_primary",
+        "fg_secondary",
+        "fg_muted",
+        "comment",
+        "blue",
+        "blue_soft",
+        "cyan",
+        "teal",
+        "green",
+        "yellow",
+        "orange",
+        "red",
+        "purple",
+        "selection",
+        "cursor",
+        "success",
+        "warning",
+        "error",
+        "info",
+        "diff_add"
+      ],
+      "groups": {
+        "surfaces": [
+          "bg_0",
+          "bg_1",
+          "bg_2",
+          "bg_3",
+          "bg_4",
+          "border"
+        ],
+        "foregrounds": [
+          "fg_primary",
+          "fg_secondary",
+          "fg_muted",
+          "comment"
+        ],
+        "accents": [
+          "blue",
+          "blue_soft",
+          "cyan",
+          "teal",
+          "green",
+          "yellow",
+          "orange",
+          "red",
+          "purple"
+        ],
+        "utilities": [
+          "selection",
+          "cursor"
+        ],
+        "semantics": [
+          "success",
+          "warning",
+          "error",
+          "info",
+          "diff_add"
+        ]
+      },
+      "rawColors": {
         "bg_0": "#F4F1E8",
         "bg_1": "#E9E4D8",
         "bg_2": "#DED7C8",
         "bg_3": "#D2CAB9",
         "bg_4": "#C7BEAB",
         "border": "#C4BBA8",
-
         "fg_primary": "#2E3440",
         "fg_secondary": "#4C5568",
         "fg_muted": "#6C7385",
         "comment": "#7A8194",
-
         "blue": "#4F6EDB",
         "blue_soft": "#6C83D6",
         "cyan": "#3F8F95",
@@ -135,7 +2584,6 @@
         "orange": "#B87A52",
         "red": "#B35D5D",
         "purple": "#7A63B8",
-
         "selection": "#D6CEBD",
         "cursor": "#4F6EDB",
         "success": "#4F9C69",
@@ -143,6 +2591,729 @@
         "error": "#B35D5D",
         "info": "#4F6EDB",
         "diff_add": "#BFD3C2"
+      },
+      "colors": {
+        "bg_0": {
+          "name": "Background 0",
+          "order": 0,
+          "hex": "#F4F1E8",
+          "rgb": {
+            "r": 244,
+            "g": 241,
+            "b": 232
+          },
+          "hsl": {
+            "h": 44.99999999999993,
+            "s": 0.3529411764705887,
+            "l": 0.9333333333333333
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_1": {
+          "name": "Background 1",
+          "order": 1,
+          "hex": "#E9E4D8",
+          "rgb": {
+            "r": 233,
+            "g": 228,
+            "b": 216
+          },
+          "hsl": {
+            "h": 42.352941176470644,
+            "s": 0.27868852459016386,
+            "l": 0.8803921568627451
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_2": {
+          "name": "Background 2",
+          "order": 2,
+          "hex": "#DED7C8",
+          "rgb": {
+            "r": 222,
+            "g": 215,
+            "b": 200
+          },
+          "hsl": {
+            "h": 40.90909090909091,
+            "s": 0.25,
+            "l": 0.8274509803921568
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_3": {
+          "name": "Background 3",
+          "order": 3,
+          "hex": "#D2CAB9",
+          "rgb": {
+            "r": 210,
+            "g": 202,
+            "b": 185
+          },
+          "hsl": {
+            "h": 40.8,
+            "s": 0.21739130434782597,
+            "l": 0.7745098039215685
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "bg_4": {
+          "name": "Background 4",
+          "order": 4,
+          "hex": "#C7BEAB",
+          "rgb": {
+            "r": 199,
+            "g": 190,
+            "b": 171
+          },
+          "hsl": {
+            "h": 40.71428571428573,
+            "s": 0.2000000000000001,
+            "l": 0.7254901960784313
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "border": {
+          "name": "Border",
+          "order": 5,
+          "hex": "#C4BBA8",
+          "rgb": {
+            "r": 196,
+            "g": 187,
+            "b": 168
+          },
+          "hsl": {
+            "h": 40.71428571428567,
+            "s": 0.19178082191780832,
+            "l": 0.7137254901960784
+          },
+          "accent": false,
+          "category": "surface"
+        },
+        "fg_primary": {
+          "name": "Foreground Primary",
+          "order": 6,
+          "hex": "#2E3440",
+          "rgb": {
+            "r": 46,
+            "g": 52,
+            "b": 64
+          },
+          "hsl": {
+            "h": 220,
+            "s": 0.16363636363636364,
+            "l": 0.21568627450980393
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "fg_secondary": {
+          "name": "Foreground Secondary",
+          "order": 7,
+          "hex": "#4C5568",
+          "rgb": {
+            "r": 76,
+            "g": 85,
+            "b": 104
+          },
+          "hsl": {
+            "h": 220.71428571428572,
+            "s": 0.15555555555555556,
+            "l": 0.3529411764705882
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "fg_muted": {
+          "name": "Foreground Muted",
+          "order": 8,
+          "hex": "#6C7385",
+          "rgb": {
+            "r": 108,
+            "g": 115,
+            "b": 133
+          },
+          "hsl": {
+            "h": 223.2,
+            "s": 0.10373443983402494,
+            "l": 0.4725490196078431
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "comment": {
+          "name": "Comment",
+          "order": 9,
+          "hex": "#7A8194",
+          "rgb": {
+            "r": 122,
+            "g": 129,
+            "b": 148
+          },
+          "hsl": {
+            "h": 223.84615384615387,
+            "s": 0.10833333333333336,
+            "l": 0.5294117647058824
+          },
+          "accent": false,
+          "category": "foreground"
+        },
+        "blue": {
+          "name": "Blue",
+          "order": 10,
+          "hex": "#4F6EDB",
+          "rgb": {
+            "r": 79,
+            "g": 110,
+            "b": 219
+          },
+          "hsl": {
+            "h": 226.71428571428572,
+            "s": 0.6603773584905659,
+            "l": 0.584313725490196
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "blue_soft": {
+          "name": "Blue Soft",
+          "order": 11,
+          "hex": "#6C83D6",
+          "rgb": {
+            "r": 108,
+            "g": 131,
+            "b": 214
+          },
+          "hsl": {
+            "h": 226.98113207547172,
+            "s": 0.5638297872340425,
+            "l": 0.6313725490196078
+          },
+          "accent": true,
+          "category": "accent",
+          "variantOf": "blue"
+        },
+        "cyan": {
+          "name": "Cyan",
+          "order": 12,
+          "hex": "#3F8F95",
+          "rgb": {
+            "r": 63,
+            "g": 143,
+            "b": 149
+          },
+          "hsl": {
+            "h": 184.18604651162792,
+            "s": 0.4056603773584906,
+            "l": 0.41568627450980394
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "teal": {
+          "name": "Teal",
+          "order": 13,
+          "hex": "#4F949A",
+          "rgb": {
+            "r": 79,
+            "g": 148,
+            "b": 154
+          },
+          "hsl": {
+            "h": 184.79999999999998,
+            "s": 0.32188841201716734,
+            "l": 0.4568627450980392
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "green": {
+          "name": "Green",
+          "order": 14,
+          "hex": "#4F9C69",
+          "rgb": {
+            "r": 79,
+            "g": 156,
+            "b": 105
+          },
+          "hsl": {
+            "h": 140.25974025974025,
+            "s": 0.32765957446808514,
+            "l": 0.4607843137254902
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "yellow": {
+          "name": "Yellow",
+          "order": 15,
+          "hex": "#B48C42",
+          "rgb": {
+            "r": 180,
+            "g": 140,
+            "b": 66
+          },
+          "hsl": {
+            "h": 38.94736842105263,
+            "s": 0.46341463414634143,
+            "l": 0.48235294117647065
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "orange": {
+          "name": "Orange",
+          "order": 16,
+          "hex": "#B87A52",
+          "rgb": {
+            "r": 184,
+            "g": 122,
+            "b": 82
+          },
+          "hsl": {
+            "h": 23.529411764705884,
+            "s": 0.4180327868852459,
+            "l": 0.5215686274509804
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "red": {
+          "name": "Red",
+          "order": 17,
+          "hex": "#B35D5D",
+          "rgb": {
+            "r": 179,
+            "g": 93,
+            "b": 93
+          },
+          "hsl": {
+            "h": 0,
+            "s": 0.361344537815126,
+            "l": 0.5333333333333333
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "purple": {
+          "name": "Purple",
+          "order": 18,
+          "hex": "#7A63B8",
+          "rgb": {
+            "r": 122,
+            "g": 99,
+            "b": 184
+          },
+          "hsl": {
+            "h": 256.2352941176471,
+            "s": 0.3744493392070485,
+            "l": 0.5549019607843138
+          },
+          "accent": true,
+          "category": "accent"
+        },
+        "selection": {
+          "name": "Selection",
+          "order": 19,
+          "hex": "#D6CEBD",
+          "rgb": {
+            "r": 214,
+            "g": 206,
+            "b": 189
+          },
+          "hsl": {
+            "h": 40.8,
+            "s": 0.23364485981308417,
+            "l": 0.7901960784313726
+          },
+          "accent": false,
+          "category": "utility"
+        },
+        "cursor": {
+          "name": "Cursor",
+          "order": 20,
+          "hex": "#4F6EDB",
+          "rgb": {
+            "r": 79,
+            "g": 110,
+            "b": 219
+          },
+          "hsl": {
+            "h": 226.71428571428572,
+            "s": 0.6603773584905659,
+            "l": 0.584313725490196
+          },
+          "accent": false,
+          "category": "utility"
+        },
+        "success": {
+          "name": "Success",
+          "order": 21,
+          "hex": "#4F9C69",
+          "rgb": {
+            "r": 79,
+            "g": 156,
+            "b": 105
+          },
+          "hsl": {
+            "h": 140.25974025974025,
+            "s": 0.32765957446808514,
+            "l": 0.4607843137254902
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "green"
+        },
+        "warning": {
+          "name": "Warning",
+          "order": 22,
+          "hex": "#B48C42",
+          "rgb": {
+            "r": 180,
+            "g": 140,
+            "b": 66
+          },
+          "hsl": {
+            "h": 38.94736842105263,
+            "s": 0.46341463414634143,
+            "l": 0.48235294117647065
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "yellow"
+        },
+        "error": {
+          "name": "Error",
+          "order": 23,
+          "hex": "#B35D5D",
+          "rgb": {
+            "r": 179,
+            "g": 93,
+            "b": 93
+          },
+          "hsl": {
+            "h": 0,
+            "s": 0.361344537815126,
+            "l": 0.5333333333333333
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "red"
+        },
+        "info": {
+          "name": "Info",
+          "order": 24,
+          "hex": "#4F6EDB",
+          "rgb": {
+            "r": 79,
+            "g": 110,
+            "b": 219
+          },
+          "hsl": {
+            "h": 226.71428571428572,
+            "s": 0.6603773584905659,
+            "l": 0.584313725490196
+          },
+          "accent": false,
+          "category": "semantic",
+          "aliasOf": "blue"
+        },
+        "diff_add": {
+          "name": "Diff Add",
+          "order": 25,
+          "hex": "#BFD3C2",
+          "rgb": {
+            "r": 191,
+            "g": 211,
+            "b": 194
+          },
+          "hsl": {
+            "h": 128.99999999999997,
+            "s": 0.18518518518518504,
+            "l": 0.788235294117647
+          },
+          "accent": false,
+          "category": "semantic"
+        }
+      },
+      "ansiColors": {
+        "black": {
+          "name": "Black",
+          "order": 0,
+          "normal": {
+            "name": "Black",
+            "hex": "#4C5568",
+            "rgb": {
+              "r": 76,
+              "g": 85,
+              "b": 104
+            },
+            "hsl": {
+              "h": 220.71428571428572,
+              "s": 0.15555555555555556,
+              "l": 0.3529411764705882
+            },
+            "code": 0
+          },
+          "bright": {
+            "name": "Bright Black",
+            "hex": "#6C7385",
+            "rgb": {
+              "r": 108,
+              "g": 115,
+              "b": 133
+            },
+            "hsl": {
+              "h": 223.2,
+              "s": 0.10373443983402494,
+              "l": 0.4725490196078431
+            },
+            "code": 8
+          }
+        },
+        "red": {
+          "name": "Red",
+          "order": 1,
+          "normal": {
+            "name": "Red",
+            "hex": "#B35D5D",
+            "rgb": {
+              "r": 179,
+              "g": 93,
+              "b": 93
+            },
+            "hsl": {
+              "h": 0,
+              "s": 0.361344537815126,
+              "l": 0.5333333333333333
+            },
+            "code": 1
+          },
+          "bright": {
+            "name": "Bright Red",
+            "hex": "#C0716F",
+            "rgb": {
+              "r": 192,
+              "g": 113,
+              "b": 111
+            },
+            "hsl": {
+              "h": 1.4814814814814765,
+              "s": 0.3913043478260869,
+              "l": 0.5941176470588235
+            },
+            "code": 9
+          }
+        },
+        "green": {
+          "name": "Green",
+          "order": 2,
+          "normal": {
+            "name": "Green",
+            "hex": "#4F9C69",
+            "rgb": {
+              "r": 79,
+              "g": 156,
+              "b": 105
+            },
+            "hsl": {
+              "h": 140.25974025974025,
+              "s": 0.32765957446808514,
+              "l": 0.4607843137254902
+            },
+            "code": 2
+          },
+          "bright": {
+            "name": "Bright Green",
+            "hex": "#59B17A",
+            "rgb": {
+              "r": 89,
+              "g": 177,
+              "b": 122
+            },
+            "hsl": {
+              "h": 142.5,
+              "s": 0.360655737704918,
+              "l": 0.5215686274509803
+            },
+            "code": 10
+          }
+        },
+        "yellow": {
+          "name": "Yellow",
+          "order": 3,
+          "normal": {
+            "name": "Yellow",
+            "hex": "#B48C42",
+            "rgb": {
+              "r": 180,
+              "g": 140,
+              "b": 66
+            },
+            "hsl": {
+              "h": 38.94736842105263,
+              "s": 0.46341463414634143,
+              "l": 0.48235294117647065
+            },
+            "code": 3
+          },
+          "bright": {
+            "name": "Bright Yellow",
+            "hex": "#C49F51",
+            "rgb": {
+              "r": 196,
+              "g": 159,
+              "b": 81
+            },
+            "hsl": {
+              "h": 40.69565217391304,
+              "s": 0.4935622317596568,
+              "l": 0.5431372549019609
+            },
+            "code": 11
+          }
+        },
+        "blue": {
+          "name": "Blue",
+          "order": 4,
+          "normal": {
+            "name": "Blue",
+            "hex": "#4F6EDB",
+            "rgb": {
+              "r": 79,
+              "g": 110,
+              "b": 219
+            },
+            "hsl": {
+              "h": 226.71428571428572,
+              "s": 0.6603773584905659,
+              "l": 0.584313725490196
+            },
+            "code": 4
+          },
+          "bright": {
+            "name": "Bright Blue",
+            "hex": "#667DE3",
+            "rgb": {
+              "r": 102,
+              "g": 125,
+              "b": 227
+            },
+            "hsl": {
+              "h": 228.95999999999998,
+              "s": 0.6906077348066296,
+              "l": 0.6450980392156862
+            },
+            "code": 12
+          }
+        },
+        "magenta": {
+          "name": "Magenta",
+          "order": 5,
+          "normal": {
+            "name": "Magenta",
+            "hex": "#7A63B8",
+            "rgb": {
+              "r": 122,
+              "g": 99,
+              "b": 184
+            },
+            "hsl": {
+              "h": 256.2352941176471,
+              "s": 0.3744493392070485,
+              "l": 0.5549019607843138
+            },
+            "code": 5
+          },
+          "bright": {
+            "name": "Bright Magenta",
+            "hex": "#8D75C5",
+            "rgb": {
+              "r": 141,
+              "g": 117,
+              "b": 197
+            },
+            "hsl": {
+              "h": 258,
+              "s": 0.40816326530612257,
+              "l": 0.615686274509804
+            },
+            "code": 13
+          }
+        },
+        "cyan": {
+          "name": "Cyan",
+          "order": 6,
+          "normal": {
+            "name": "Cyan",
+            "hex": "#3F8F95",
+            "rgb": {
+              "r": 63,
+              "g": 143,
+              "b": 149
+            },
+            "hsl": {
+              "h": 184.18604651162792,
+              "s": 0.4056603773584906,
+              "l": 0.41568627450980394
+            },
+            "code": 6
+          },
+          "bright": {
+            "name": "Bright Cyan",
+            "hex": "#44A3AE",
+            "rgb": {
+              "r": 68,
+              "g": 163,
+              "b": 174
+            },
+            "hsl": {
+              "h": 186.22641509433964,
+              "s": 0.4380165289256199,
+              "l": 0.4745098039215686
+            },
+            "code": 14
+          }
+        },
+        "white": {
+          "name": "White",
+          "order": 7,
+          "normal": {
+            "name": "White",
+            "hex": "#C7BEAB",
+            "rgb": {
+              "r": 199,
+              "g": 190,
+              "b": 171
+            },
+            "hsl": {
+              "h": 40.71428571428573,
+              "s": 0.2000000000000001,
+              "l": 0.7254901960784313
+            },
+            "code": 7
+          },
+          "bright": {
+            "name": "Bright White",
+            "hex": "#D2CAB9",
+            "rgb": {
+              "r": 210,
+              "g": 202,
+              "b": 185
+            },
+            "hsl": {
+              "h": 40.8,
+              "s": 0.21739130434782597,
+              "l": 0.7745098039215685
+            },
+            "code": 15
+          }
+        }
       }
     }
   }
