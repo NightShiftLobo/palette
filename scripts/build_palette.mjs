@@ -379,6 +379,10 @@ const main = async () => {
     flavours,
   };
 
+  if (source.originalPalette) {
+    output.originalPalette = source.originalPalette;
+  }
+
   await writeFile(`${outputPath.pathname}`, `${JSON.stringify(output, null, 2)}\n`);
 };
 
